@@ -9,6 +9,8 @@ Simple simulation of some coloured balls in a box using a [canvas](https://devel
 3. Run `npm install` in this repository
 4. Run `npm start` and it should be running at `localhost:8080`
 
+> Note: you can also debug in vscode. Use the `live server` extension to run the server and then you can debug in vscode using chrome (check they're pointing to the same localhost port).
+
 ## Usage
 
 * Gravity: how strong the pull to the bottom of the box is

@@ -1,0 +1,14 @@
+{
+  "name": "balls",
+  "version": "1.0.0",
+  "description": "Simple simulation of some coloured balls in a box using a canvas.",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server"
+  },
+  "author": "microhod",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}

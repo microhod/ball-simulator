@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>Ball Simulator</h1>
+  <div id="input">
+    <label for="gravity">Gravity</label>
+    <input type="range" id="gravity" name="gravity" value="25">
+    <label for="friction">Friction</label>
+    <input type="range" id="friction" name="friction" value="10">
+    <label for="bounce">Bounce</label>
+    <input type="range" id="bounce" name="bounce" value="90">
+    <label for="balls">Balls</label>
+    <input type="range" id="balls" name="balls" value="10">
+    
+    <button type="button" id="new">New</button>
+  </div>
+  <hr>
+  <canvas id="canvas" style="border: 2px solid grey"></canvas>
+  <script type="module" src="js/index.js"></script>
+</body>
+</html>
